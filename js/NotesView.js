@@ -12,6 +12,7 @@ export default class NotesView {
     this.root.innerHTML = `
             <div class="notes__sidebar">
                 <button class="notes__add--btn" type="button">Add Note</button>
+                <span class="notes__instruction">Double-click a note to delete.</span>
                 <div class="notes__list">
                 </div>
             </div>

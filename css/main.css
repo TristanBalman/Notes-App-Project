@@ -38,6 +38,17 @@ body {
     background: #00af8c;
 }
 
+.notes__instruction {
+    color: #aaaaaa;
+    font-style: italic;
+    font-size: 0.8em;
+    cursor: default;
+}
+
+.notes__list {
+    margin-top: 1em;
+}
+
 .notes__list-item {
     cursor: pointer;
 }
@@ -88,8 +99,8 @@ body {
 
 .notes__body {
     flex-grow: 1;
-    font-size: 1.2em;
+    font-size: 1em;
     line-height: 1.5;
-    margin-top: 2em;
+    margin-top: 1em;
     resize: none;
 }
